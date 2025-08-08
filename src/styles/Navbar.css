@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff0f5;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 20px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .navbar-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #d17ca1;
+    text-decoration: none;
+  }
+  
+  .navbar-center {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .navbar-link {
+    color: #444;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #f088b5;
+  }
+  
+  .cart-icon {
+    color: #333;
+  }
+  
